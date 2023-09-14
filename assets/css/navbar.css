@@ -1,0 +1,29 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: #ffffff;
+} 
+.navbar .navbar-content {
+    padding: 3rem 4rem 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar .navbar-content .navbar-links li {
+    display: inline-block;
+}
+.navbar .navbar-content .navbar-links li:not(:last-of-type) {
+    margin-right: 2rem;
+}
+.navbar .navbar-content .navbar-links a {
+    padding: 1rem;
+    display: inline-block;
+}
+.navbar .navbar-content .navbar-links a:hover {
+    color: #eb9ff1;
+}
+.navbar img {
+    width: 170px;
+}
