@@ -1,0 +1,11 @@
+#skills h2,
+.skills-content {
+    text-align: center;
+}
+.skills-content {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
