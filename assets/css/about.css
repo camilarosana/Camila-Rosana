@@ -1,0 +1,21 @@
+#about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    scroll-margin-top: 20rem;
+}
+.about-left {
+    max-width: 62rem;
+    flex: 1;
+}
+.about-left p {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    max-width: 50rem;
+}
+.about-right img {
+    min-width: 25rem;
+    max-width: 400px;
+    border-radius: 1.5rem;
+}
