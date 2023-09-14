@@ -1,0 +1,42 @@
+.projects {
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+    scroll-margin-top: 15rem;
+}
+.projects h2 {
+    margin-bottom: 5rem;
+}
+.projects-content {
+    max-width: 56rem;
+    text-align: center;
+    margin: 0 auto 6rem;
+}
+.projects ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.projects ul li:not(:last-of-type) {
+    margin-bottom: 12rem;
+}
+.image img {
+    width: 100%;
+    min-width: 40rem;
+    max-width: 47rem;
+    height: auto;
+}
+.btn-project button {
+    border: none;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    background: #eb9ff1;
+    color: #f8fafc;
+    transition: 0.3s ease-out;
+}
+.btn-project button:hover {
+    transform: scale(1.05);
+}

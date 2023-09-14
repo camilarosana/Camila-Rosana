@@ -33,14 +33,14 @@ h1 {
 .secondary-title {
   font-size: 4rem;
   font-weight: 700;
-  color: var(--primary-color);
+  color: #000;
 }
 
 .tertiary-title {
   font-size: 3.2rem;
   font-weight: 500;
   line-height: 4.5rem;
-  color: var(--secondary-color);
+  color: #000;
 }
 
 p,
