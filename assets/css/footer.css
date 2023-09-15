@@ -1,0 +1,14 @@
+.footer-content {
+    text-align: center;
+    padding: 6rem 2rem 1rem;
+    height: 100px;
+}
+.footer-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-content p {
+    font-size: 1.4rem;
+    font-style: italic;
+}
