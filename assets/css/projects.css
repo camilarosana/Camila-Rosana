@@ -29,22 +29,6 @@
 .btn-project {
     text-align: center;
 }
-/*
-.btn-project button {
-    border: none;
-    padding: 10px;
-    font-size: 14px;
-    border-radius: 3px;
-    font-weight: bold;
-    cursor: pointer;
-    background: #eb9ff1;
-    color: #f8fafc;
-    transition: 0.3s ease-out;
-}
-.btn-project button:hover {
-    transform: scale(1.05);
-}
-*/
 .btn-project button {
     width: 95px;
     height: 32px;
