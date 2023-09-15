@@ -4,6 +4,7 @@
     align-items: center;
     gap: 1rem;
     scroll-margin-top: 20rem;
+    color: #fff;
 }
 .about-left {
     max-width: 62rem;
@@ -14,10 +15,14 @@
     margin-bottom: 4rem;
     max-width: 50rem;
 }
+.about-right {
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
 .about-right img {
     min-width: 25rem;
     max-width: 400px;
-    border-radius: 1.5rem;
 }
 
 @media screen and (max-width: 768px) {

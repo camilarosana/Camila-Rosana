@@ -6,15 +6,14 @@
     <link rel="stylesheet" href="./assets/css/extends.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet"/>
     <title>Camila Rosana | Portfólio</title>
 </head>
 <body>
     <nav class="navbar">
         <div class="navbar-content max-width mb-0">
-            <a href="/">
-                <img src="./assets/images/camilarosana.jpg" alt="Camila Rosana">
-            </a>
+            <div class="logo">camilarosana.</div>
             <ul class="navbar-links">
                 <li><a href="#header">Início</a></li>
                 <li><a href="#about">Sobre</a></li>
@@ -40,7 +39,8 @@
     </nav>
     <header id="header" class="max-width">
         <div class="header-body">
-            <h1>Olá! Sou Camila Rosana Desenvolvedora Front-End</h1>
+            <h1>Mais do que código</h1>
+            <h2 class="typed-text">Entregando valor real para o seu negócio</h2>
         </div>
     </header>
     <section id="about" class="max-width">
@@ -49,7 +49,11 @@
             <p>Desenvolvedora Front-end com experiência adquirida por meio de projetos pessoais. Constantemente estudando sobre novas tecnologias e frameworks para aprimorar minhas habilidades. Conhecimento em Html, Css, Javascript e consumo de APIs REST. Em busca da minha primeira oportunidade profissional na área.</p>
         </div>
         <div class="about-right">
-            <img src="./assets/images/camilawhite2.jpg" alt="Camila">
+            <div class="spinner">
+                <div class="circle">
+                    <img src="./assets/images/camilawhite2.jpg" alt="Camila">
+                </div>
+            </div>
         </div>
     </section>
     <section id="skills" class="skills">
@@ -66,60 +70,35 @@
     <section id="projects" class="projects" class="max-width">
         <div class="projects-content">
             <h2 class="secondary-title">Projetos</h2>
-            <ul>
-                <li>
-                    <div class="projects-left">
-                    <div class="image">
-                        <img src="./assets/images/todolist.png" alt="ToDo List">
-                    </div>
-                    <h3 class="tertiary-title">ToDo List</h3>
-                    <p>ToDo List com Html, Css e Javascript.</p>
+            <div class="carrosel">
+                <div class="carrosel-content" id="img">
+                    <img src="./assets/images/todolist.png">
+                </div>
                     <div class="btn-project">
                         <button><a href="https://camilarosana.github.io/ToDo-List/" target="_blank">Projeto</a></button>
                         <button><a href="https://github.com/camilarosana/ToDo-List" target="_blank">Repositório</a></button>
-                    </div>
                 </div>
-                </li>
-                <li>
-                    <div class="projects-right">
-                    <div class="image">
-                        <img src="./assets/images/imc.png" alt="IMC">
-                    </div>
-                    <h3 class="tertiary-title">Calculadora de IMC</h3>
-                    <p>Calculadora de IMC com Html, Css e Javascript.</p>
-                    <div class="btn-project">
-                        <button><a href="https://camilarosana.github.io/IMC-Calc/" target="_blank">Projeto</a></button>
-                        <button><a href="https://github.com/camilarosana/IMC-Calc" target="_blank">Repositório</a></button>
-                    </div>
+                <div class="carrosel-content" id="img">
+                    <img src="./assets/images/imc2.png">
                 </div>
-                </li>
-                <li>
-                    <div class="projects-left">
-                    <div class="image">
-                        <img src="./assets/images/clima.png" alt="Clima">
-                    </div>
-                    <h3 class="tertiary-title">Clima</h3>
-                    <p>Projeto de um app de Clima, consumindo API.</p>
-                    <div class="btn-project">
-                        <button><a href="https://camilarosana.github.io/Clima/" target="_blank">Projeto</a></button>
-                        <button><a href="https://github.com/camilarosana/Clima" target="_blank">Repositório</a></button>
-                    </div>
+                <div class="btn-project">
+                    <button><a href="https://camilarosana.github.io/IMC-Calc/" target="_blank">Projeto</a></button>
+                    <button><a href="https://github.com/camilarosana/IMC-Calc" target="_blank">Repositório</a></button>
                 </div>
-                </li>
-                <li>
-                    <div class="projects-right">
-                    <div class="image">
-                        <img src="./assets/images/deep pizza.png" alt="Deep Pizza">
-                    </div>
-                    <h3 class="tertiary-title">Deep Pizza</h3>
-                    <p>Landing Page responsiva feita com Html, Css e Javascript.</p>
-                    <div class="btn-project">
-                        <button><a href="https://camilarosana.github.io/Deep-Pizza/" target="_blank">Projeto</a></button>
-                        <button><a href="https://github.com/camilarosana/Deep-Pizza" target="_blank">Repositório</a></button>
-                    </div>
+                <div class="carrosel-content" id="img">
+                    <img src="./assets/images/clima3.png">
                 </div>
-                </li>
-            </ul>
+                <div class="btn-project">
+                    <button><a href="https://camilarosana.github.io/Clima/" target="_blank">Projeto</a></button>
+                    <button><a href="https://github.com/camilarosana/Clima" target="_blank">Repositório</a></button>
+                </div>
+                <div class="carrosel-content">
+                    <img src="./assets/images/deep pizza2.png">
+                </div>
+                <div class="btn-project">
+                    <button><a href="https://camilarosana.github.io/Deep-Pizza/" target="_blank">Projeto</a></button>
+                    <button><a href="https://github.com/camilarosana/Deep-Pizza" target="_blank">Repositório</a></button>
+                </div>
         </div>
     </section>
     <footer id="footer">

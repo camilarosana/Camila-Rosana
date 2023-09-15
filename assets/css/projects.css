@@ -2,33 +2,34 @@
     margin-bottom: 10rem;
     margin-top: 10rem;
     scroll-margin-top: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .projects h2 {
     margin-bottom: 5rem;
-}
-.projects-content {
-    max-width: 56rem;
     text-align: center;
-    margin: 0 auto 6rem;
 }
-.projects ul li {
+.carrosel {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
-.projects ul li:not(:last-of-type) {
-    margin-bottom: 8rem;
-}
-.image img {
+.carrosel-content img {
     width: 100%;
     min-width: 40rem;
     max-width: 47rem;
     height: auto;
+    padding: 5px;
+}
+.btn-project {
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 20px;
 }
 .btn-project button {
     border: none;
-    padding: 5px;
+    padding: 10px;
     font-size: 14px;
     border-radius: 3px;
     font-weight: bold;
@@ -45,6 +46,11 @@
     .image img {
         min-width: 30rem;
         max-width: 40rem;
+    }
+    .btn-project {
+        margin-left: 100px;
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
 }
 

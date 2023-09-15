@@ -9,3 +9,7 @@
     justify-content: center;
     gap: 5rem;
 }
+.skills-content img:hover {
+    cursor: pointer;
+    transform: rotate(35deg);
+}
