@@ -18,7 +18,7 @@
     flex-direction: column;
 }
 .projects ul li:not(:last-of-type) {
-    margin-bottom: 12rem;
+    margin-bottom: 8rem;
 }
 .image img {
     width: 100%;
@@ -40,3 +40,4 @@
 .btn-project button:hover {
     transform: scale(1.05);
 }
+
