@@ -41,3 +41,10 @@
     transform: scale(1.05);
 }
 
+@media screen and (max-width: 768px) {
+    .image img {
+        min-width: 30rem;
+        max-width: 40rem;
+    }
+}
+

@@ -27,3 +27,42 @@
 .navbar img {
     width: 170px;
 }
+.navbar-mobile,
+.mobile-links {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-mobile img {
+        width: 3.6rem;
+        height: 3.6rem;
+        cursor: pointer;
+    }
+    .navbar-mobile.active {
+        display: flex;
+        align-items: center;
+    }
+    .navbar .navbar-content .navbar-links li {
+        display: none;
+    }
+    .mobile-links .active{
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        position: absolute;
+        top: 90%;
+        left: 0;
+        padding: 17rem 0;
+        box-shadow: 0 0.4rem 0.5rem rgba(0, 0, 0, 0.1);
+        z-index: 1;
+    }
+    .mobile-links.active li {
+        margin-right: 0;
+    }
+    .mobile-links.active li a {
+        padding: 1rem;
+        display: block;
+        text-align: center;
+    }
+}
